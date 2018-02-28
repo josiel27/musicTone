@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+  <title></title>
+
+  <link rel="manifest" href="manifest.json">
+
+  <!-- un-comment this code to enable service worker
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('service-worker.js')
+          .then(() => console.log('service worker installed'))
+          .catch(err => console.log('Error', err));
+      }
+    </script>-->
+
+
+  <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+  <!-- ionic/angularjs js -->
+  <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+  <!-- cordova script (this will be a 404 during development) -->
+  <script src="cordova.js"></script>
+
+  <!-- your app's js -->
+  <script src="js/app.js"></script>
+
+  <link rel="stylesheet" href="css/icono.min.css">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/startGame_style.css" rel="stylesheet">
+  <link href="css/buttons_style.css" rel="stylesheet">
+</head>
+
+<body ng-app="starter">
+
+  <ion-pane>
+    <ion-content>
+      <center class="site-header gradeButtonsMenu">
+        <div class="divButtonsTom">
+          <button id="tom1" type="submit" class="buttonMenu" value="Start">
+            <div class="icono-play"></div>C
+          </button>
+
+          <button id="tom2" type="submit" class="buttonMenu" value="Start">
+            <div class="icono-play"></div>C#
+          </button>
+
+          <button id="tom3" type="submit" class="buttonMenu" value="Start">
+            <div class="icono-play"></div>D
+          </button>
+
+          <button id="tom4" type="submit" class="buttonMenu" value="Start">
+            <div class="icono-play"></div>D#
+          </button>
+
+          <button id="tom5" type="submit" class="buttonMenu" value="Start">
+            <div class="icono-play"></div>E
+          </button>
+
+          <button id="tom6" type="submit" class="buttonMenu" value="Start">
+            <div class="icono-play"></div>F
+          </button>
+
+          <br>
+          <!-- Separa a linha dos botões -->
+
+          <button id="tom7" type="submit" class="buttonMenu" value="Start">
+            <div class="icono-play"></div>F#
+          </button>
+
+          <button id="tom8" type="submit" class="buttonMenu" value="Start">
+            <div class="icono-play"></div>G
+          </button>
+
+          <button id="tom9" type="submit" class="buttonMenu" value="Start">
+            <div class="icono-play"></div>G#
+          </button>
+
+          <button id="tom10" type="submit" class="buttonMenu" value="Start">
+            <div class="icono-play"></div>A
+          </button>
+
+          <button id="tom11" type="submit" class="buttonMenu" value="Start">
+            <div class="icono-play"></div>A#
+          </button>
+
+          <button id="tom12" type="submit" class="buttonMenu" value="Start">
+            <div class="icono-play"></div>B
+          </button>
+
+          <div id="divtom1" class="divNotes" style="display:block">C &nbsp; Dm &nbsp; Em &nbsp; F &nbsp; G &nbsp; Am &nbsp; Bm</div>
+          <div id="divtom2" class="divNotes" style="display:none">C# &nbsp; Dm &nbsp; Em &nbsp; F &nbsp; G &nbsp; Am &nbsp; Bm</div>
+          <div id="divtom3" class="divNotes" style="display:none">D &nbsp; Em &nbsp; F#m &nbsp; G &nbsp; A &nbsp; Bm &nbsp; C#m</div>
+          <div id="divtom4" class="divNotes" style="display:none">D# &nbsp; Em &nbsp; F#m &nbsp; G &nbsp; A &nbsp; Bm &nbsp; C#m</div>
+          <div id="divtom5" class="divNotes" style="display:none">E &nbsp; F#m &nbsp; G#m &nbsp; A &nbsp; B &nbsp; C#m &nbsp; D#m</div>
+          <div id="divtom6" class="divNotes" style="display:none">F &nbsp; Gm &nbsp; Am &nbsp; Bb &nbsp; C &nbsp; Dm &nbsp; Em</div>
+          <div id="divtom7" class="divNotes" style="display:none">F# &nbsp; Gm &nbsp; Am &nbsp; Bb &nbsp; C &nbsp; Dm &nbsp; Em</div>
+          <div id="divtom8" class="divNotes" style="display:none">G &nbsp; Am &nbsp; Bm &nbsp; C &nbsp; D &nbsp; Em &nbsp; F#m</div>
+          <div id="divtom9" class="divNotes" style="display:none">G# &nbsp; Am &nbsp; Bm &nbsp; C &nbsp; D &nbsp; Em &nbsp; F#m</div>
+          <div id="divtom10" class="divNotes" style="display:none">A &nbsp; Bm &nbsp; C#m &nbsp; D &nbsp; E &nbsp; F#m &nbsp; G#m</div>
+          <div id="divtom11" class="divNotes" style="display:none">A# &nbsp; Bm &nbsp; C#m &nbsp; D &nbsp; E &nbsp; F#m &nbsp; G#m</div>
+          <div id="divtom12" class="divNotes" style="display:none">B &nbsp; C#m &nbsp; D#m &nbsp; E &nbsp; F# &nbsp; G#m &nbsp; A#m</div>
+        </div>
+
+
+      </center>
+    </ion-content>
+  </ion-pane>
+
+  <center>//reference
+    <div class="refJF" style="display:block">
+      <a href="josiel27.github.io/portfolio/">Josiel Faria</a>
+    </div>
+  </center>
+
+</body>
+
+</html>
